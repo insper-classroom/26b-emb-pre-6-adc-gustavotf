@@ -41,7 +41,7 @@ void task_b(void *p) {
 }
 
 int main() {
-    stdio_init_all();
+    stdio_init_all(); //bora tentar dnv
 
     // TODO: crie o mutex e armazene-o em xPrintfMutex.
     xPrintfMutex = xSemaphoreCreateMutex();
