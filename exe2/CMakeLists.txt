@@ -1,4 +1,4 @@
-add_executable(exe1
+add_executable(exe2
         main.c
 )
 
